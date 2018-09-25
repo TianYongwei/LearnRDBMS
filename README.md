@@ -21,3 +21,9 @@
 ![隔离级别](./img/隔离级别.jpg)
 - 持久性：保证断电或者宕机数据可从恢复
 - 事务的ACID特性是靠日志系统实现的
+
+### 参考
+
+- [数据库事务原子性、一致性是怎样实现的？ - 知乎](https://www.zhihu.com/question/30272728/answer/72476703)
+> 在事务处理的ACID属性中，一致性是最基本的属性，其它的三个属性都为了保证一致性而存在的。
+- [Locking and Row Versioning | Microsoft Docs](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/ms187101(v=sql.105))
